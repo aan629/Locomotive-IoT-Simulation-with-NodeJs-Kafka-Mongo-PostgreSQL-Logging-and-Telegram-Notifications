@@ -21,8 +21,8 @@ import com.example.backEndreportScheduler.service.TelegramService;
 @DependsOn("myMongoService")
 public class TelegramBotReport extends TelegramLongPollingBot {
     private TelegramService telegramService;
-    private static final String BOT_TOKEN = "7081445935:AAHYiFTuHqmjng7hPtaIMUMHQRjGg0ljVPk";
-    private static final String CHAT_ID = "5492170728";
+    private static final String BOT_TOKEN = "Change With Your BOT Token";
+    private static final String CHAT_ID = "Change With Your Chat ID";
 
     private static final Logger logger = LoggerFactory.getLogger(TelegramBotReport.class);
 
